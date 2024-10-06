@@ -7,10 +7,10 @@ import Questionnaire from "./pages/Questionnaire";
 function App() {
   return (
     <Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename="/sm-frontend">
       <Routes>
         <Route path="/" element={<Questionnaire/>}/>
-        {/* <Route path="/:id" element={<CaseDetails/>}/> */}
+        <Route path="/:id" element={<CaseDetails/>}/>
       </Routes>
       </BrowserRouter>
     </Fragment>
