@@ -32,22 +32,22 @@ const Questionnaire = () => {
     const postObj = [
       {
         questionId: "fac3d33e-a641-4fe4-b22e-937746efb1aa",
-        optionIds: [],
+        optionIds: null,
         answerText: firstName
       },
       {
         questionId: "f4903cf1-55f8-4841-861c-a7a9575f4db0",
-        optionIds: [],
+        optionIds: null,
         answerText: lastName
       },
       {
         questionId: "5c0c570a-7c78-46ff-8f20-166dd0b95d89",
-        optionIds: [],
+        optionIds: null,
         answerText: email
       },
       {
         questionId: "af90632f-36e8-445a-a879-0cd81e2c0307",
-        optionIds: [],
+        optionIds: null,
         answerText: phoneNumber
       },
       {
