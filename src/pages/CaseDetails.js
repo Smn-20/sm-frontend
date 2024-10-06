@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import  logo from "./rep.png";
 
 const CaseDetails = () => {
+  const {id} = useParams()
+  useEffect(()=>{
+  },[])
   return (
     <div className="w-full min-h-[100vh] h-[100%] bg-gray-100">
       {/* Header with blue background */}
