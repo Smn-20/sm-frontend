@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Questionnaire/>}/>
-        <Route path="/:id" element={<CaseDetails/>}/>
+        {/* <Route path="/:id" element={<CaseDetails/>}/> */}
       </Routes>
       </BrowserRouter>
     </Fragment>
