@@ -30,6 +30,7 @@ const Questionnaire = () => {
     }
 
     const postObj = JSON.stringify({
+        email:email,
         answers:[
             {
               questionId: "fac3d33e-a641-4fe4-b22e-937746efb1aa",
