@@ -73,7 +73,7 @@ const Questionnaire = () => {
     axios
       .post(`https://citizen.moh.gov.rw/sm-backend-app/api/surveys/create`, postObj) //declare api Path
       .then((res) => {
-        if (res.data.status === true) {
+        if (res.data.success === true) {
           alert('Successfully sent!');
           window.location.reload();
         } else {
