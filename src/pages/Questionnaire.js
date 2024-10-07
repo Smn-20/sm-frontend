@@ -65,6 +65,10 @@ const Questionnaire = () => {
           ]
     });
 
+    axios.defaults.headers = {
+        "Content-Type": "application/json",
+      };
+
 
     axios
       .post(`https://citizen.moh.gov.rw/sm-backend-app/api/surveys/create`, postObj) //declare api Path
