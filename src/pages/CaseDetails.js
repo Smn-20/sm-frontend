@@ -118,11 +118,11 @@ const CaseDetails = () => {
 
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Symptoms</h2>
 
-          <p className="font-bold text-2xl">{symptoms.join(', ') || "-"}</p>
+          <p className="font-bold text-2xl">{symptoms?.join(', ') || "-"}</p>
 
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Had any contact with a person who has been confirmed or suspected to have MVD?</h2>
 
-          <p className="font-bold text-2xl">{closeContact.join(', ') || "-"}</p>
+          <p className="font-bold text-2xl">{closeContact?.join(', ') || "-"}</p>
 
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Status</h2>
 
