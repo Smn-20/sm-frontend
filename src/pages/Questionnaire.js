@@ -216,15 +216,14 @@ const Questionnaire = () => {
             </label>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { id: "dd65d3cd-d87b-49bd-b053-38d520681e22", label: "High fever (≥38° C)" },
-                { id: "896a2280-bd41-4f76-85b7-ee674cd5529d", label: "Severe headache" },
-                { id: "9b7eb8fa-24e5-4c20-a841-c563ddefd1ee", label: "Muscle ache" },
-                { id: "103a6fb7-9363-4c7f-8795-0c6c49fe70f3", label: "Vomiting/nausea" },
-                { id: "bc24aa9a-4a61-46d9-89d7-55d10eb9f4bb", label: "Diarrhea" },
-                { id: "a61e46f2-f3f0-4d79-b0b5-8c1a6c8af53b", label: "Abdominal pain" },
-                { id: "27c10a6a-df84-4a59-936b-2abf7f2f872d", label: "Cough" },
-                { id: "80eacb62-d3b0-4425-a407-0f3d367aa0fc", label: "Rash" },
-                { id: "0d9db8a5-e9c3-4fd6-b68f-9f572403ff26", label: "Fatigue" },
+                { id: "c566dcc4-257c-4d20-a156-eb083072fd81", label: "High fever (≥38° C)" },
+                { id: "08a7a195-82e0-4bb2-9d6d-7931114e5e51", label: "Severe headache" },
+                { id: "16f9446b-c1e2-44e9-80ce-a606b0c5f09d", label: "Muscle ache" },
+                { id: "b897724e-fe58-4b79-aa80-ed2b748f9331", label: "Vomiting/nausea" },
+                { id: "a9d3a642-f9c6-4937-b981-7dcb353c38cd", label: "Diarrhea" },
+                { id: "8cae60ab-8f75-4569-aeb9-88928d7fd811", label: "Intense fatigue/general weakness" },
+                { id: "432cf333-b301-4a06-81d4-7dace0999bd4", label: "Chest pain" },
+                { id: "ad134572-987b-43c3-8b17-f7f0dba047d6", label: "Unexplained bleeding" },
               ].map((symptom) => (
                 <div key={symptom.id} className="flex items-center">
                   <input
