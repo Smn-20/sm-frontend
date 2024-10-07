@@ -116,17 +116,17 @@ const CaseDetails = () => {
             </div>
           </div>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Symptoms</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-2">Symptoms</h2>
 
-          <p className="font-bold text-2xl">{symptoms?.join(', ') || "-"}</p>
+          <p className="font-semibold text-lg text-gray-600">{symptoms?.join(', ') || "-"}</p>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Had any contact with a person who has been confirmed or suspected to have MVD?</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-2">Had any contact with a person who has been confirmed or suspected to have MVD?</h2>
 
-          <p className="font-bold text-2xl">{closeContact?.join(', ') || "-"}</p>
+          <p className="font-semibold text-lg text-gray-600">{closeContact?.join(', ') || "-"}</p>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Status</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-2">Status</h2>
 
-          <p className="font-bold text-2xl">N/A</p>
+          <p className="font-semibold text-lg text-gray-600">N/A</p>
         </>
       </div>
     </div>
