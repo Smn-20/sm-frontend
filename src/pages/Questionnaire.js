@@ -29,40 +29,41 @@ const Questionnaire = () => {
       return; // Exit the function if validation fails
     }
 
-    const postObj = [
-      {
-        questionId: "fac3d33e-a641-4fe4-b22e-937746efb1aa",
-        optionIds: [],
-        answerText: firstName
-      },
-      {
-        questionId: "f4903cf1-55f8-4841-861c-a7a9575f4db0",
-        optionIds: [],
-        answerText: lastName
-      },
-      {
-        questionId: "5c0c570a-7c78-46ff-8f20-166dd0b95d89",
-        optionIds: [],
-        answerText: email
-      },
-      {
-        questionId: "af90632f-36e8-445a-a879-0cd81e2c0307",
-        optionIds: [],
-        answerText: phoneNumber
-      },
-      {
-        questionId: "079188cf-05ba-4c69-ad3c-df7b52cc2d06",
-        optionIds: symptoms,
-        answerText: ""
-      },
-      {
-        questionId: "ec2e749e-2963-43b6-8943-49594aeaef3d",
-        optionIds: [closeContact],
-        answerText: ""
-      }
-    ];
+    const postObj = JSON.stringify({
+        answers:[
+            {
+              questionId: "fac3d33e-a641-4fe4-b22e-937746efb1aa",
+              optionIds: [],
+              answerText: firstName
+            },
+            {
+              questionId: "f4903cf1-55f8-4841-861c-a7a9575f4db0",
+              optionIds: [],
+              answerText: lastName
+            },
+            {
+              questionId: "5c0c570a-7c78-46ff-8f20-166dd0b95d89",
+              optionIds: [],
+              answerText: email
+            },
+            {
+              questionId: "af90632f-36e8-445a-a879-0cd81e2c0307",
+              optionIds: [],
+              answerText: phoneNumber
+            },
+            {
+              questionId: "079188cf-05ba-4c69-ad3c-df7b52cc2d06",
+              optionIds: symptoms,
+              answerText: ""
+            },
+            {
+              questionId: "ec2e749e-2963-43b6-8943-49594aeaef3d",
+              optionIds: [closeContact],
+              answerText: ""
+            }
+          ]
+    });
 
-    console.log(JSON.stringify(postObj))
 
     axios
       .post(`https://citizen.moh.gov.rw/sm-backend-app/api/surveys/create`, postObj) //declare api Path
