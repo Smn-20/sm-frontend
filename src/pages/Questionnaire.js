@@ -95,15 +95,15 @@ const Questionnaire = () => {
   // Options data for question 2
   const options = [
     {
-      id: "1cbece24-1a18-4342-8ffc-1bcc89f412f4",
+      id: "01f44d55-370c-49d1-9395-0892f0e628e1",
       optionText: "Yes",
     },
     {
-      id: "0468d385-2765-484e-91ba-cb66388c1484",
+      id: "2c4a1eef-322e-405c-884c-e8749568cb8f",
       optionText: "No",
     },
     {
-      id: "730606d8-501b-4e82-a030-237917f6a018",
+      id: "c8ccebd8-73f4-4c91-96fc-e143e64cc28e",
       optionText: "I don't Know",
     },
   ];
