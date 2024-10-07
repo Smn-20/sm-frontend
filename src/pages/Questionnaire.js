@@ -33,32 +33,32 @@ const Questionnaire = () => {
         email:email,
         answers:[
             {
-              questionId: "fac3d33e-a641-4fe4-b22e-937746efb1aa",
+              questionId: "f664b743-0099-4b29-b77a-36bd4887c91a",
               optionIds: [],
               answerText: firstName
             },
             {
-              questionId: "f4903cf1-55f8-4841-861c-a7a9575f4db0",
+              questionId: "6eb42611-aa08-4949-a048-f662ed16096d",
               optionIds: [],
               answerText: lastName
             },
             {
-              questionId: "5c0c570a-7c78-46ff-8f20-166dd0b95d89",
+              questionId: "9a471d64-9075-4789-871a-6f55f7f4205f",
               optionIds: [],
               answerText: email
             },
             {
-              questionId: "af90632f-36e8-445a-a879-0cd81e2c0307",
+              questionId: "a631ae62-8b16-483c-a8ac-7827c2472528",
               optionIds: [],
               answerText: phoneNumber
             },
             {
-              questionId: "079188cf-05ba-4c69-ad3c-df7b52cc2d06",
+              questionId: "17363bb6-d775-4e50-b589-8d4c4d8d4676",
               optionIds: symptoms,
               answerText: ""
             },
             {
-              questionId: "ec2e749e-2963-43b6-8943-49594aeaef3d",
+              questionId: "1d737b38-4d9a-4896-8323-3c6822c71831",
               optionIds: [closeContact],
               answerText: ""
             }
